@@ -9,13 +9,7 @@ margin:0;
 }
 .pagina {
   min-height: 100vh;
-  display: flex;
-}
-#p1 {
-  display: flex;
-}
-#p2 {
-  display: flex;
+  display: none;
 }
  .texto {
    width:50%;
