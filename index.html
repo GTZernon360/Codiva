@@ -1,214 +1,211 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Sendo um Católico Praticante</title>
-    <style>
-      body {
-        margin: 0;
-        padding-bottom: 70px;
-        font-family: "Cormorant Garamond", serif;
-        background: linear-gradient(to right, white 50%, #FFD700 50%);
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Sendo um Católico Praticante</title>
+  <style>
+    body {
+      margin: 0;
+      padding-bottom: 70px;
+      font-family: "Cormorant Garamond", serif;
+      background: linear-gradient(to right, white 50%, #FFD700 50%);
+    }
+    .pagina {
+      display: none;
+      flex-direction: row;
+      min-height: 100vh;
+    }
+    .texto {
+      width: 50%;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 50px;
+      box-sizing: border-box;
+    }
+    .imagem {
+      width: 50%;
+      background: #FFD700;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      box-sizing: border-box;
+    }
+    .imagem img {
+      width: 400px;
+      height: 350px;
+      max-width: 90%;
+      border-radius: 15px;
+      border: 4px solid #B8860B;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    .rodape {
+      margin-top: 15px;
+      font-style: italic;
+    }
+    .nav-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 0;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(6px);
+      border-top: 2px solid #B8860B;
+      box-shadow: 0 -2px 12px rgba(0,0,0,0.1);
+      box-sizing: border-box;
+    }
+    #progresso {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #B22222;
+      min-width: 120px;
+      text-align: center;
+    }
+    button {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 1rem;
+      padding: 10px 20px;
+      background: #C0C0C0;
+      color: #B22222;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover:not(:disabled) {
+      background: #B22222;
+      color: #C0C0C0;
+    }
+    button:disabled {
+      opacity: 0.35;
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
 
-      .pagina {
-        display: none;
-        flex-direction: row;
-        min-height: 100vh;
-      }
+  <!-- Página 1 -->
+  <section class="pagina" id="p1">
+    <div class="texto">
+      <h1>O que é ser um Católico Praticante?</h1>
+      <h2>É por que você deve ser</h2>
+      <p>Ser um católico praticante significa viver a fé católica no dia a dia, seguindo os ensinamentos de Jesus Cristo,<br>
+      as doutrinas da Igreja e participando ativamente da comunidade religiosa.<br>
+      A Igreja Católica resume as obrigações básicas de um praticante nos chamados Cinco Mandamentos da Igreja<br>
+      (ou Preceitos da Igreja), que são:<br>
+      Participar da missa inteira nos domingos e de outras festas de guarda, guardando também o descanso do trabalho.<br>
+      Confessar-se ao menos uma vez cada ano (especialmente se houver pecado grave ou antes de comungar).<br>
+      Comungar (receber a Eucaristia) ao menos pela Páscoa da Ressurreição.<br>
+      Jejuar e abster-se de carne nos dias determinados pela Igreja<br>
+      (como na Quarta-feira de Cinzas e na Sexta-feira Santa).<br>
+      Ajudar a Igreja em suas necessidades (através do dízimo, ofertas e partilha, conforme as próprias condições).<br>
+      Além desses preceitos obrigatórios, a prática da fé envolve outros pilares fundamentais:<br>
+      Vida de oração: Ter o hábito de rezar diariamente, ler a Bíblia e cultivar momentos de intimidade com Deus<br>
+      (como rezar o Terço).<br>
+      Vivência dos Sacramentos: Buscar a graça de Deus através do Batismo, Crisma, Matrimônio (se for o caso),<br>
+      além da Confissão e Eucaristia frequentes.<br>
+      Prática da caridade e da moral cristã: Viver os Dez Mandamentos no cotidiano. Isso significa buscar ser uma<br>
+      pessoa honesta, justa, que ajuda o próximo, perdoa os outros e busca viver o amor ensinado por Jesus.<br>
+      Engajamento na comunidade: Sempre que possível, participar de pastorais, movimentos,<br>
+      grupos de oração ou ações sociais promovidas pela paróquia.</p>
+      <p><strong>Resumo: Ser um católico praticante significa viver a fé no dia a dia por meio de:<br>
+      Participação religiosa: Ir à Missa aos domingos e dias santos, confessar-se e comungar<br>
+      pelo menos uma vez ao ano (especialmente na Páscoa).<br>
+      Vida espiritual: Praticar a oração diária e ler a Bíblia.<br>
+      Ações e moral: Seguir os Dez Mandamentos, praticar a caridade,<br>
+      ajudar o próximo e colaborar com as necessidades da Igreja (como o dízimo).</strong></p>
+    </div>
+    <div class="imagem">
+      <img src="https://cdn.discordapp.com/attachments/1495722121911861339/1512127129155014829/mongerezando.jpg?ex=6a22f5a1&is=6a21a421&hm=9d8b5c844c4998fa3a8224c93ccde7bbd3ae79b9218e58ace6cbd0dbc7c5ce80" alt="img 1">
+      <p class="rodape">
+        São Bruno em Oração no Deserto: Representação do fundador da Ordem dos Cartuxos em seu isolamento.<br>
+        A imagem exemplifica a busca católica por Deus através do silêncio,<br>
+        da penitência e da oração constante.
+      </p>
+    </div>
+  </section>
 
-      .texto {
-        width: 50%;
-        background: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 50px;
-        box-sizing: border-box;
-      }
+  <!-- Página 2 -->
+  <section class="pagina" id="p2">
+    <div class="texto">
+      <h1>É por que você deve ser.</h1>
+      <h2>Os motivos para ser.</h2>
+      <p>A decisão de ser um católico praticante envolve motivos espirituais, teológicos e comunitários.<br>
+      Dentro da fé católica, a prática ativa é vista como a resposta ao chamado de Deus.<br>
+      Os principais motivos incluem:<br>
+      Relacionamento com Deus: A Igreja ensina que os sacramentos (como a Missa e a Confissão)<br>
+      são os meios visíveis instituídos por Jesus para receber a graça divina, fortalecer a fé<br>
+      e manter uma proximidade com Deus.<br>
+      Vivência da Verdade e da Tradição: Para os fiéis, a Igreja Católica preserva os ensinamentos<br>
+      originais de Jesus Cristo e dos apóstolos, oferecendo um guia seguro para a moral e para a vida eterna.<br>
+      Crescimento Pessoal e Comunitário: A prática religiosa incentiva as virtudes,<br>
+      o perdão e a caridade. Além disso, a vida em comunidade oferece apoio mútuo,<br>
+      acolhimento e a oportunidade de ajudar o próximo de forma organizada.</p>
+      <p><strong>As pessoas buscam ser católicas praticantes para nutrir<br>
+      o relacionamento com Deus por meio dos sacramentos, seguir os ensinamentos de Jesus<br>
+      preservados pela Igreja e viver em uma comunidade que estimula<br>
+      o crescimento espiritual e a prática da caridade.</strong></p>
+    </div>
+    <div class="imagem">
+      <img src="https://cdn.discordapp.com/attachments/1495722121911861339/1512150094194147388/Picsart_26-06-04_14-44-26-961.jpg?ex=6a230b04&is=6a21b984&hm=a48dd8ff927baabe781f3d4c8ac7195d5395cf84d7ca71f037fb897d665311a1" alt="img 2">
+      <p class="rodape">
+        Retrata o momento em que o filho arrependido volta para casa após desperdiçar sua herança.<br>
+        A obra simboliza a misericórdia de Deus,<br>
+        o perdão incondicional e o acolhimento ao católico que busca a reconciliação.
+      </p>
+    </div>
+  </section>
 
-      .imagem {
-        width: 50%;
-        background: #FFD700;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
-        box-sizing: border-box;
-      }
+  <!-- Barra de navegação fixa -->
+  <nav class="nav-bar">
+    <button id="btn-voltar">&#8592; Voltar</button>
+    <span id="progresso">Página 1 de 2</span>
+    <button id="btn-proxima">Próxima &#8594;</button>
+  </nav>
 
-      .imagem img {
-        width: 400px;
-        height: 350px;
-        max-width: 90%;
-        border-radius: 15px;
-        border: 4px solid #B8860B;
-        box-shadow: 0 0 20px rgba(0,0,0,0.3);
-      }
-
-      .rodape {
-        margin-top: 15px;
-        font-style: italic;
-      }
-
-      .nav-bar {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        padding: 12px 0;
-        background: rgba(255, 255, 255, 0.92);
-        backdrop-filter: blur(6px);
-        border-top: 2px solid #B8860B;
-        box-shadow: 0 -2px 12px rgba(0,0,0,0.1);
-        box-sizing: border-box;
-      }
-
-      #progresso {
-        font-size: 1.1rem;
-        font-weight: bold;
-        color: #B22222;
-        min-width: 120px;
-        text-align: center;
-      }
-
-      button {
-        font-family: "Cormorant Garamond", serif;
-        font-size: 1rem;
-        padding: 10px 20px;
-        background: #C0C0C0;
-        color: #B22222;
-        border: none;
-        border-radius: 8px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.3);
-        cursor: pointer;
-        transition: 0.3s;
-      }
-
-      button:hover:not(:disabled) {
-        background: #B22222;
-        color: #C0C0C0;
-      }
-
-      button:disabled {
-        opacity: 0.35;
-        cursor: default;
-      }
-    </style>
-  </head>
-  <body>
-
-    <!-- Página 1 -->
-    <section class="pagina" id="p1">
-      <div class="texto">
-        <h1>O que é ser um Católico Praticante?</h1>
-        <h2>É por que você deve ser</h2>
-        <p>Ser um católico praticante significa viver a fé católica no dia a dia, seguindo os ensinamentos de Jesus Cristo,<br>
-        as doutrinas da Igreja e participando ativamente da comunidade religiosa.<br>
-        A Igreja Católica resume as obrigações básicas de um praticante nos chamados Cinco Mandamentos da Igreja<br>
-        (ou Preceitos da Igreja), que são:<br>
-        Participar da missa inteira nos domingos e de outras festas de guarda, guardando também o descanso do trabalho.<br>
-        Confessar-se ao menos uma vez cada ano (especialmente se houver pecado grave ou antes de comungar).<br>
-        Comungar (receber a Eucaristia) ao menos pela Páscoa da Ressurreição.<br>
-        Jejuar e abster-se de carne nos dias determinados pela Igreja<br>
-        (como na Quarta-feira de Cinzas e na Sexta-feira Santa).<br>
-        Ajudar a Igreja em suas necessidades (através do dízimo, ofertas e partilha, conforme as próprias condições).<br>
-        Além desses preceitos obrigatórios, a prática da fé envolve outros pilares fundamentais:<br>
-        Vida de oração: Ter o hábito de rezar diariamente, ler a Bíblia e cultivar momentos de intimidade com Deus<br>
-        (como rezar o Terço).<br>
-        Vivência dos Sacramentos: Buscar a graça de Deus através do Batismo, Crisma, Matrimônio (se for o caso),<br>
-        além da Confissão e Eucaristia frequentes.<br>
-        Prática da caridade e da moral cristã: Viver os Dez Mandamentos no cotidiano. Isso significa buscar ser uma<br>
-        pessoa honesta, justa, que ajuda o próximo, perdoa os outros e busca viver o amor ensinado por Jesus.<br>
-        Engajamento na comunidade: Sempre que possível, participar de pastorais, movimentos,<br>
-        grupos de oração ou ações sociais promovidas pela paróquia.</p>
-        <p><strong>Resumo: Ser um católico praticante significa viver a fé no dia a dia por meio de:<br>
-        Participação religiosa: Ir à Missa aos domingos e dias santos, confessar-se e comungar<br>
-        pelo menos uma vez ao ano (especialmente na Páscoa).<br>
-        Vida espiritual: Praticar a oração diária e ler a Bíblia.<br>
-        Ações e moral: Seguir os Dez Mandamentos, praticar a caridade,<br>
-        ajudar o próximo e colaborar com as necessidades da Igreja (como o dízimo).</strong></p>
-      </div>
-      <div class="imagem">
-        <img src="https://cdn.discordapp.com/attachments/1495722121911861339/1512127129155014829/mongerezando.jpg?ex=6a22f5a1&is=6a21a421&hm=9d8b5c844c4998fa3a8224c93ccde7bbd3ae79b9218e58ace6cbd0dbc7c5ce80" alt="img 1">
-        <p class="rodape">
-          São Bruno em Oração no Deserto: Representação do fundador da Ordem dos Cartuxos em seu isolamento.<br>
-          A imagem exemplifica a busca católica por Deus através do silêncio,<br>
-          da penitência e da oração constante.
-        </p>
-      </div>
-    </section>
-
-    <!-- Página 2 -->
-    <section class="pagina" id="p2">
-      <div class="texto">
-        <h1>É por que você deve ser.</h1>
-        <h2>Os motivos para ser.</h2>
-        <p>A decisão de ser um católico praticante envolve motivos espirituais, teológicos e comunitários.<br>
-        Dentro da fé católica, a prática ativa é vista como a resposta ao chamado de Deus.<br>
-        Os principais motivos incluem:<br>
-        Relacionamento com Deus: A Igreja ensina que os sacramentos (como a Missa e a Confissão)<br>
-        são os meios visíveis instituídos por Jesus para receber a graça divina, fortalecer a fé<br>
-        e manter uma proximidade com Deus.<br>
-        Vivência da Verdade e da Tradição: Para os fiéis, a Igreja Católica preserva os ensinamentos<br>
-        originais de Jesus Cristo e dos apóstolos, oferecendo um guia seguro para a moral e para a vida eterna.<br>
-        Crescimento Pessoal e Comunitário: A prática religiosa incentiva as virtudes,<br>
-        o perdão e a caridade. Além disso, a vida em comunidade oferece apoio mútuo,<br>
-        acolhimento e a oportunidade de ajudar o próximo de forma organizada.</p>
-        <p><strong>As pessoas buscam ser católicas praticantes para nutrir<br>
-        o relacionamento com Deus por meio dos sacramentos, seguir os ensinamentos de Jesus<br>
-        preservados pela Igreja e viver em uma comunidade que estimula<br>
-        o crescimento espiritual e a prática da caridade.</strong></p>
-      </div>
-      <div class="imagem">
-        <img src="https://cdn.discordapp.com/attachments/1495722121911861339/1512150094194147388/Picsart_26-06-04_14-44-26-961.jpg?ex=6a230b04&is=6a21b984&hm=a48dd8ff927baabe781f3d4c8ac7195d5395cf84d7ca71f037fb897d665311a1" alt="img 2">
-        <p class="rodape">
-          Retrata o momento em que o filho arrependido volta para casa após desperdiçar sua herança.<br>
-          A obra simboliza a misericórdia de Deus,<br>
-          o perdão incondicional e o acolhimento ao católico que busca a reconciliação.
-        </p>
-      </div>
-    </section>
-
-    <!-- Barra de navegação fixa -->
-    <nav class="nav-bar">
-      <button id="btn-voltar" onclick="trocarPagina(paginaAtual - 1)">&#8592; Voltar</button>
-      <span id="progresso">Página 1 de 2</span>
-      <button id="btn-proxima" onclick="trocarPagina(paginaAtual + 1)">Próxima &#8594;</button>
-    </nav>
-
-    <script>
+  <script>
+    (function () {
       var paginaAtual = 0;
       var paginas = document.querySelectorAll(".pagina");
       var progresso = document.getElementById("progresso");
       var btnVoltar = document.getElementById("btn-voltar");
       var btnProxima = document.getElementById("btn-proxima");
 
-      function atualizarNav() {
+      function mostrar(n) {
+        paginas[paginaAtual].style.display = "none";
+        paginaAtual = n;
+        paginas[paginaAtual].style.display = "flex";
         progresso.textContent = "Página " + (paginaAtual + 1) + " de " + paginas.length;
         btnVoltar.disabled = paginaAtual === 0;
         btnProxima.disabled = paginaAtual === paginas.length - 1;
       }
 
-      function trocarPagina(numero) {
-        if (numero < 0 || numero >= paginas.length) return;
-        paginas[paginaAtual].style.display = "none";
-        paginaAtual = numero;
-        paginas[paginaAtual].style.display = "flex";
-        atualizarNav();
-      }
+      btnVoltar.addEventListener("click", function () {
+        if (paginaAtual > 0) mostrar(paginaAtual - 1);
+      });
+
+      btnProxima.addEventListener("click", function () {
+        if (paginaAtual < paginas.length - 1) mostrar(paginaAtual + 1);
+      });
 
       paginas[0].style.display = "flex";
-      atualizarNav();
-    </script>
+      progresso.textContent = "Página 1 de " + paginas.length;
+      btnVoltar.disabled = true;
+      btnProxima.disabled = paginas.length <= 1;
+    })();
+  </script>
 
-  </body>
+</body>
 </html>
