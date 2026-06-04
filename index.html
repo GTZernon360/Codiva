@@ -37,8 +37,7 @@
           São Bruno em Oração no Deserto: Representação do fundador da Ordem dos Cartuxos em seu isolamento.<br> A imagem exemplifica a busca católica por Deus através do silêncio,<br> da penitência e da oração constante.
         </p>
       </div>
-      </section>
-    <button onclick="trocarPagina(1)">Próxima Página</button>
+    </section>
     <!-- pag 2 -->
     <section class="pagina" id="p2">
        <div class="texto">
@@ -57,7 +56,14 @@
         </p>
       </div>
     </section>
-    <button onclick="trocarPagina(0)">Voltar Página</button>
+
+    <!-- barra de navegação fixa -->
+    <nav class="nav-bar">
+      <button id="btn-voltar" onclick="trocarPagina(paginaAtual - 1)">&#8592; Voltar</button>
+      <span id="progresso">Página 1 de 2</span>
+      <button id="btn-proxima" onclick="trocarPagina(paginaAtual + 1)">Próxima &#8594;</button>
+    </nav>
+
     <script src="script.js"></script>
   </body>
 </html>

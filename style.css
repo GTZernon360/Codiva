@@ -1,34 +1,35 @@
 body {
-margin:0;
+  margin: 0;
   font-family: "Cormorant Garamond", serif;
   background: linear-gradient(
     to right,
     white 50%,
     #FFD700 50%
   );
+  padding-bottom: 70px;
 }
 .pagina {
   min-height: 100vh;
   display: none;
 }
- .texto {
-   width:50%;
-   background: white;
-   display: flex;
-   flex-direction:column;
-   justify-content:center;
-   align-items: center;
-   text-align: center;
-   padding: 50px;
-   box-sizing:border-box;
- }
-.imagem {
+.texto {
   width: 50%;
-  background:#FFD700;
+  background: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.imagem {
+  width: 50%;
+  background: #FFD700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 50px;
   box-sizing: border-box;
 }
@@ -38,26 +39,52 @@ margin:0;
   max-width: 90%;
   border-radius: 15px;
   border: 4px solid #B8860B;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);  
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 .rodape {
   margin-top: 15px;
   font-style: italic;
 }
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px 0;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  border-top: 2px solid #B8860B;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+#progresso {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #B22222;
+  min-width: 120px;
+  text-align: center;
+}
 button {
   font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
   padding: 10px 20px;
   background: #C0C0C0;
   color: #B22222;
+  border: none;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
-  margin: 10px;
+  cursor: pointer;
   transition: 0.3s;
 }
-button:hover {
+button:hover:not(:disabled) {
   background: #B22222;
   color: #C0C0C0;
-  .pagina {
-    display: flex;
-  }
+}
+button:disabled {
+  opacity: 0.35;
+  cursor: default;
 }
