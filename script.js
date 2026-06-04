@@ -1,5 +1,6 @@
 /* Fallback script — só executado se o index.html antigo carregar este arquivo.
    Funciona com qualquer estrutura de HTML sem depender de IDs específicos. */
+ // TESTE 123
 (function () {
   var paginaAtual = 0;
   var paginas = document.querySelectorAll(".pagina");
