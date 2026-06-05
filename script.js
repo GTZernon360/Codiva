@@ -1,28 +1,32 @@
-/* Fallback script — só executado se o index.html antigo carregar este arquivo.
-   Funciona com qualquer estrutura de HTML sem depender de IDs específicos. */
- // TESTE 123
 (function () {
   var paginaAtual = 0;
   var paginas = document.querySelectorAll(".pagina");
-  if (paginas.length === 0) return;
-
-  paginas[0].style.display = "flex";
-
-  function trocarPagina(numero) {
-    if (numero < 0 || numero >= paginas.length) return;
-    paginas[paginaAtual].style.display = "none";
-    paginaAtual = numero;
-    paginas[paginaAtual].style.display = "flex";
-  }
-
-  window.trocarPagina = trocarPagina;
-
+  var progresso = document.getElementById("progresso");
   var btnVoltar = document.getElementById("btn-voltar");
   var btnProxima = document.getElementById("btn-proxima");
-  var progresso = document.getElementById("progresso");
 
-  if (btnVoltar) btnVoltar.addEventListener("click", function () { trocarPagina(paginaAtual - 1); });
-  if (btnProxima) btnProxima.addEventListener("click", function () { trocarPagina(paginaAtual + 1); });
-  if (progresso) progresso.textContent = "Página 1 de " + paginas.length;
-  if (btnVoltar) btnVoltar.disabled = true;
+  if (paginas.length === 0) return;
+
+  function mostrar(n) {
+    paginas[paginaAtual].style.display = "none";
+    paginaAtual = n;
+    paginas[paginaAtual].style.display = "flex";
+    progresso.textContent = "Página " + (paginaAtual + 1) + " de " + paginas.length;
+    btnVoltar.disabled = paginaAtual === 0;
+    btnProxima.disabled = paginaAtual === paginas.length - 1;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  btnVoltar.addEventListener("click", function () {
+    if (paginaAtual > 0) mostrar(paginaAtual - 1);
+  });
+
+  btnProxima.addEventListener("click", function () {
+    if (paginaAtual < paginas.length - 1) mostrar(paginaAtual + 1);
+  });
+
+  paginas[0].style.display = "flex";
+  progresso.textContent = "Página 1 de " + paginas.length;
+  btnVoltar.disabled = true;
+  btnProxima.disabled = paginas.length <= 1;
 })();
