@@ -1,0 +1,1 @@
+- [Busca de imagens](image-search-availability.md) — o buscador de imagens pode exigir modo pago; mantenha uma alternativa local para recursos visuais essenciais.

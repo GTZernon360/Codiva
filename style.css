@@ -35,14 +35,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body,
 a,
 button {
-  cursor: default;
-}
-
-a,
-button {
+  cursor: pointer;
   color: inherit;
 }
 
