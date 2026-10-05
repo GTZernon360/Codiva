@@ -1,0 +1,991 @@
+Quero que você construa uma plataforma web completa de aprendizado de programação, inspirada na experiência de plataformas como Duolingo, mas totalmente focada em programação.
+
+Não quero apenas um site com textos e exercícios.
+
+Quero uma aplicação real, com usuários, autenticação, logout, banco de dados, progresso salvo, XP, níveis, dificuldades pedagógicas, exercícios interativos, revisão, conquistas, perfil e estrutura preparada para crescer.
+
+A plataforma deve ensinar programação desde o nível iniciante até níveis avançados.
+
+---
+
+# 1. OBJETIVO DA PLATAFORMA
+
+A plataforma deve transformar o aprendizado de programação em uma jornada progressiva e gamificada.
+
+O usuário deve:
+
+* Criar uma conta
+* Fazer login
+* Ter seu progresso salvo
+* Aprender conceitos
+* Entender por que eles existem
+* Ver onde eles são utilizados
+* Resolver exercícios
+* Receber XP
+* Subir de nível
+* Manter sequência de estudos
+* Revisar conteúdos antigos
+* Desbloquear novas lições
+* Fazer desafios
+* Acompanhar estatísticas
+* Evoluir gradualmente
+
+A plataforma deve ensinar o usuário a realmente programar, e não apenas decorar sintaxe.
+
+---
+
+# 2. PROGRESSÃO PRINCIPAL
+
+A progressão educacional deve seguir aproximadamente:
+
+1. Lógica de programação
+2. HTML
+3. CSS
+4. JavaScript
+5. Git e GitHub
+6. JavaScript avançado
+7. Internet, HTTP e APIs
+8. TypeScript
+9. Front-end profissional
+10. Backend
+11. Bancos de dados
+12. APIs profissionais
+13. Segurança
+14. Testes
+15. Arquitetura de software
+16. Linux e DevOps
+17. Performance
+18. Engenharia de software
+19. Especialização
+
+A progressão deve ser linear em relação ao conhecimento necessário.
+
+O usuário NÃO deve conseguir usar o sistema de dificuldade para pular partes importantes do currículo.
+
+A dificuldade serve para mudar a experiência de aprendizagem dentro daquela etapa.
+
+---
+
+# 3. FILOSOFIA DE ENSINO
+
+Antes de ensinar o usuário a fazer alguma coisa, explique POR QUE aquilo existe.
+
+Não comece imediatamente com:
+
+"Agora escreva este código."
+
+Primeiro explique:
+
+* O que é?
+* Para que serve?
+* Onde é utilizado?
+* Por que foi criado?
+* Qual problema resolve?
+* Por que um programador precisa conhecer isso?
+* É algo essencial?
+* É algo útil, mas secundário?
+* É algo que pode ser considerado desnecessário dependendo da situação?
+* Quais são as alternativas?
+* Quais são suas vantagens?
+* Quais são suas limitações?
+
+Depois disso:
+
+* Mostrar exemplos
+* Explicar o conceito
+* Mostrar código
+* Fazer exercícios
+
+A ordem preferencial deve ser:
+
+CONTEXTO
+↓
+O QUE É
+↓
+PARA QUE SERVE
+↓
+ONDE É USADO
+↓
+POR QUE USAR
+↓
+É NECESSÁRIO?
+↓
+EXEMPLOS
+↓
+EXPLICAÇÃO TÉCNICA
+↓
+CÓDIGO
+↓
+EXERCÍCIOS
+↓
+DESAFIO
+
+---
+
+# 4. EXEMPLOS FORA DA PROGRAMAÇÃO
+
+As explicações não devem ficar presas exclusivamente à lógica de computadores.
+
+Utilize analogias e situações do mundo real quando elas realmente ajudarem.
+
+Por exemplo:
+
+Para explicar uma variável:
+
+"Imagine uma caixa com uma etiqueta dizendo 'idade'. Dentro dela existe um valor."
+
+Para explicar uma condição:
+
+"Imagine uma catraca que verifica se você tem ingresso. Se tiver, entra. Se não tiver, não entra."
+
+Para explicar uma função:
+
+"Imagine uma máquina de fazer suco. Você coloca frutas e ela realiza um processo para produzir o resultado."
+
+Para explicar um banco de dados:
+
+"Imagine um enorme arquivo organizado, onde cada ficha possui informações específicas e pode ser encontrada rapidamente."
+
+Depois da analogia, conecte imediatamente com a programação.
+
+Não quero analogias que compliquem mais o conceito.
+
+A analogia deve servir como ponte para o conceito real.
+
+---
+
+# 5. EXPLICAÇÃO DAS LINGUAGENS
+
+Não quero que HTML, CSS, JavaScript, Python, TypeScript, C#, etc. apareçam apenas como ferramentas que precisam ser utilizadas.
+
+Cada linguagem ou tecnologia deve ser apresentada adequadamente.
+
+Antes de começar uma nova linguagem, explique:
+
+* O que é
+* Por que existe
+* Qual problema resolve
+* Onde é usada
+* Quem normalmente utiliza
+* O que pode ser construído com ela
+* Suas principais características
+* Vantagens
+* Limitações
+* Quando faz sentido usar
+* Quando não faz sentido usar
+* O que diferencia essa tecnologia de outras
+* Qual é sua importância no mercado e no desenvolvimento de software
+* Como ela se relaciona com tecnologias aprendidas anteriormente
+
+Por exemplo, antes de JavaScript:
+
+Explique que HTML estrutura páginas, CSS controla apresentação e JavaScript adiciona comportamento e lógica.
+
+Antes de TypeScript:
+
+Explique sua relação com JavaScript e por que alguém decidiu adicionar tipagem ao ecossistema.
+
+Antes de backend:
+
+Explique por que o navegador sozinho não resolve determinados problemas e por que precisamos de servidores.
+
+Antes de banco de dados:
+
+Explique por que simplesmente guardar informações em variáveis não é suficiente para aplicações reais.
+
+O aluno deve entender a necessidade antes de aprender a ferramenta.
+
+---
+
+# 6. IMPORTÂNCIA DOS CONCEITOS
+
+Cada assunto pode ser classificado pedagogicamente como:
+
+### ESSENCIAL
+
+Conhecimento fundamental que todo programador da área deve conhecer.
+
+### MUITO ÚTIL
+
+Não é necessariamente obrigatório em todos os projetos, mas aparece frequentemente.
+
+### CONTEXTUAL
+
+Importante dependendo da área ou tecnologia.
+
+### OPCIONAL
+
+Pode ser útil, mas não deve receber atenção exagerada no início.
+
+### LEGADO / HISTÓRICO
+
+Importante entender por contexto, mas não necessariamente algo que o aluno deve utilizar atualmente.
+
+Isso NÃO significa remover os assuntos menos importantes.
+
+Significa explicar honestamente o peso deles.
+
+Não quero gastar horas ensinando uma ferramenta secundária enquanto conceitos fundamentais ainda não foram dominados.
+
+---
+
+# 7. SISTEMA DE DIFICULDADE
+
+A dificuldade NÃO determina qual nível do curso o usuário pode acessar.
+
+Ela NÃO serve para pular módulos.
+
+O currículo continua seguindo a progressão normal.
+
+A dificuldade muda:
+
+* Forma de falar
+* Profundidade das explicações
+* Tipo de exemplo
+* Complexidade dos exercícios
+* Quantidade de orientação
+* Quantidade de dicas
+* Tamanho das tarefas
+* Quantidade de conceitos combinados
+* Necessidade de raciocínio
+* Necessidade de pesquisa
+* Tempo esperado para resolver
+
+Existem três níveis principais:
+
+---
+
+## 🟢 FÁCIL
+
+A linguagem deve ser extremamente simples.
+
+Imagine que estamos explicando para alguém muito jovem que nunca teve contato com programação.
+
+Não infantilize o usuário de forma irritante, mas utilize:
+
+* Frases simples
+* Vocabulário básico
+* Analogias fáceis
+* Exemplos pequenos
+* Poucos conceitos por vez
+
+Os exercícios devem ser diretos.
+
+Exemplo:
+
+"Crie uma variável chamada `nome` e coloque seu nome dentro dela."
+
+O objetivo é fazer o usuário entender o conceito sem sobrecarregá-lo.
+
+---
+
+## 🟡 MÉDIO
+
+A linguagem deve ser natural.
+
+O usuário já entende os fundamentos.
+
+As explicações podem utilizar termos técnicos básicos sem precisar explicar cada palavra.
+
+Os exemplos devem ser mais próximos de situações reais.
+
+Os exercícios devem exigir raciocínio básico.
+
+Exemplo:
+
+"Crie uma função que receba uma lista de números e retorne somente aqueles que são maiores que 10."
+
+Aqui o usuário já precisa combinar conceitos.
+
+---
+
+## 🔴 DIFÍCIL
+
+A linguagem deve ser mais técnica e complexa.
+
+O usuário deve ser tratado como alguém que já possui conhecimento da área.
+
+Utilize:
+
+* Terminologia técnica
+* Explicações mais profundas
+* Exemplos mais realistas
+* Problemas menos óbvios
+* Menos instruções explícitas
+
+Os exercícios devem:
+
+* Exigir raciocínio
+* Combinar vários conceitos
+* Fazer o usuário sair da zona de conforto
+* Possuir múltiplas etapas
+* Ser maiores
+* Demorar mais para resolver
+* Exigir planejamento
+* Às vezes exigir pesquisa na documentação
+* Fazer o usuário descobrir parte da solução sozinho
+
+A dificuldade deve fazer o usuário pensar:
+
+"Eu sei as ferramentas, mas preciso descobrir como combiná-las."
+
+Não quero exercícios difíceis apenas porque possuem mais código.
+
+Quero problemas genuinamente mais complexos.
+
+---
+
+# 8. EXEMPLO DE EVOLUÇÃO DA LINGUAGEM
+
+O mesmo conceito pode ser explicado de formas diferentes.
+
+### Fácil
+
+"Uma variável é como uma caixinha que guarda uma informação."
+
+### Médio
+
+"Uma variável permite associar um nome a um valor para que possamos utilizá-lo posteriormente no programa."
+
+### Difícil
+
+"Uma variável representa uma referência nomeada a um valor dentro de determinado contexto de execução. Seu comportamento depende do escopo e das regras de resolução da linguagem."
+
+A informação fundamental continua sendo a mesma.
+
+O que muda é a profundidade e a linguagem utilizada.
+
+---
+
+# 9. EXEMPLOS DE EVOLUÇÃO DOS EXERCÍCIOS
+
+## Fácil
+
+"Crie duas variáveis, some os valores e mostre o resultado."
+
+## Médio
+
+"Crie uma função que receba uma lista de números e retorne a média deles."
+
+## Difícil
+
+"Implemente uma função responsável por processar uma coleção de valores, validar entradas inválidas, ignorar dados inconsistentes e retornar estatísticas agregadas sem modificar a coleção original."
+
+O exercício difícil não deve simplesmente ser "o mesmo exercício com números maiores".
+
+Ele deve exigir mais pensamento.
+
+---
+
+# 10. EXERCÍCIOS NÃO DEVEM APARECER IMEDIATAMENTE
+
+Depois da explicação conceitual, apresente exemplos antes dos exercícios.
+
+Estrutura:
+
+### Conceito
+
+Explicação.
+
+### Por que isso existe?
+
+Contexto.
+
+### Onde usamos?
+
+Aplicações reais.
+
+### Exemplo do cotidiano
+
+Analogia.
+
+### Exemplo em programação
+
+Código pequeno.
+
+### Agora você
+
+Exercício fácil.
+
+### Vamos aumentar
+
+Exercício médio.
+
+### Desafio
+
+Exercício difícil.
+
+Isso deve ser adaptado ao nível de dificuldade selecionado.
+
+---
+
+# 11. SISTEMA DE EXERCÍCIOS
+
+Não utilize apenas múltipla escolha.
+
+Tenha:
+
+* Múltipla escolha
+* Verdadeiro/falso
+* Complete o código
+* Corrija o código
+* Preveja o resultado
+* Ordene o código
+* Escreva código
+* Encontre o bug
+* Explique o erro
+* Escolha a melhor solução
+* Desafios de programação
+* Projetos maiores
+
+Nos níveis difíceis, priorize exercícios em que o usuário precise realmente produzir uma solução.
+
+---
+
+# 12. DESAFIOS GRANDES
+
+Em determinadas partes do curso, o usuário deve receber trabalhos maiores.
+
+Exemplo:
+
+Em vez de:
+
+"Crie uma função."
+
+Criar:
+
+"Construa uma pequena aplicação que utilize funções, estruturas condicionais, arrays e objetos para gerenciar determinado conjunto de informações."
+
+O trabalho pode exigir:
+
+* Planejamento
+* Divisão em etapas
+* Código
+* Testes
+* Correção de erros
+* Refatoração
+
+Esses trabalhos devem ser mais demorados e representar um avanço real.
+
+---
+
+# 13. SISTEMA DE USUÁRIOS
+
+A aplicação precisa possuir autenticação real.
+
+Criar:
+
+* Cadastro
+* Login
+* Logout
+* Sessão persistente
+* Recuperação de conta quando possível
+* Perfil
+* Configurações
+* Proteção de rotas
+* Sistema seguro de autenticação
+
+Não utilizar apenas localStorage para simular contas.
+
+---
+
+# 14. BANCO DE DADOS
+
+Utilizar banco de dados real.
+
+O banco deve armazenar:
+
+### Usuário
+
+* ID
+* Nome
+* Email
+* Dados de autenticação
+* Data de criação
+* XP
+* Nível
+* Sequência
+
+### Progresso
+
+* Cursos
+* Módulos
+* Lições
+* Exercícios
+* Erros
+* Pontuação
+* XP
+* Dificuldade utilizada
+* Último acesso
+
+### Conteúdo
+
+* Cursos
+* Módulos
+* Lições
+* Conceitos
+* Exemplos
+* Exercícios
+* Respostas
+* Dicas
+* Explicações
+* Dificuldade
+* XP
+
+A estrutura deve permitir adicionar conteúdo sem modificar a arquitetura principal.
+
+---
+
+# 15. DASHBOARD
+
+Após login:
+
+Mostrar:
+
+* Nível
+* XP
+* Progresso para o próximo nível
+* Sequência
+* Curso atual
+* Próxima lição
+* Conteúdos concluídos
+* Exercícios
+* Desafios
+* Conquistas
+* Estatísticas
+* Atividade recente
+
+---
+
+# 16. SISTEMA DE XP E NÍVEIS
+
+O usuário recebe XP por:
+
+* Completar lições
+* Resolver exercícios
+* Acertar exercícios
+* Completar desafios
+* Completar módulos
+* Revisar conteúdos
+* Manter sequência
+
+O XP determina o nível geral do usuário.
+
+O nível do usuário é independente da dificuldade.
+
+Um usuário pode estar no nível 20 e ainda estudar um conteúdo de dificuldade fácil para revisar fundamentos.
+
+---
+
+# 17. REVISÃO
+
+Criar sistema de revisão.
+
+O sistema deve considerar:
+
+* Conteúdos antigos
+* Conteúdos esquecidos
+* Exercícios errados
+* Conceitos com baixo desempenho
+* Conteúdos recentes
+
+O usuário deve continuar podendo revisar assuntos anteriores mesmo depois de avançar.
+
+---
+
+# 18. SISTEMA DE ERROS
+
+Ao errar:
+
+Não mostrar somente "Errado".
+
+Mostrar:
+
+* O que aconteceu
+* Por que está errado
+* Qual conceito foi confundido
+* Exemplo correto
+* Nova tentativa
+
+Registrar erros para melhorar futuras revisões.
+
+---
+
+# 19. SISTEMA DE DICAS
+
+Exercícios podem possuir várias dicas.
+
+Exemplo:
+
+Dica 1:
+"Observe os valores recebidos."
+
+Dica 2:
+"Você precisa verificar uma condição."
+
+Dica 3:
+"Considere utilizar uma estrutura condicional."
+
+Nos níveis difíceis, não entregue a solução imediatamente.
+
+As dicas devem ajudar o usuário a pensar, não fazer o exercício por ele.
+
+---
+
+# 20. CONQUISTAS
+
+Criar achievements como:
+
+* Primeiro código
+* Primeira lição
+* 100 XP
+* 7 dias seguidos
+* Primeiro desafio
+* Primeiro projeto
+* 100 exercícios
+* Primeiro curso concluído
+* 10 desafios difíceis
+
+---
+
+# 21. SEQUÊNCIA
+
+Criar sistema de sequência diária.
+
+A sequência deve depender de atividade real de aprendizado.
+
+Abrir o site não deve ser suficiente.
+
+---
+
+# 22. PERFIL
+
+Mostrar:
+
+* Nome
+* Avatar
+* Nível
+* XP
+* Sequência
+* Cursos
+* Conquistas
+* Estatísticas
+* Linguagens estudadas
+* Progresso
+
+---
+
+# 23. CURSOS
+
+Começar com:
+
+Lógica de Programação
+↓
+HTML
+↓
+CSS
+↓
+JavaScript
+↓
+Git/GitHub
+↓
+JavaScript avançado
+↓
+Internet/HTTP/APIs
+↓
+TypeScript
+↓
+Front-end
+↓
+Backend
+↓
+Banco de dados
+↓
+APIs
+↓
+Segurança
+↓
+Testes
+↓
+Arquitetura
+↓
+DevOps
+↓
+Performance
+↓
+Engenharia de software
+↓
+Especialização
+
+Não é necessário produzir todo esse conteúdo imediatamente.
+
+Primeiro construa uma arquitetura que permita adicionar esses cursos posteriormente.
+
+---
+
+# 24. EXPLICAÇÃO DAS TECNOLOGIAS
+
+Quando uma nova tecnologia aparecer, a plataforma deve introduzi-la através de uma seção própria.
+
+Exemplo:
+
+## JavaScript
+
+### O que é?
+
+Linguagem de programação utilizada principalmente para adicionar comportamento e lógica a aplicações web.
+
+### Para que serve?
+
+...
+
+### Onde é utilizada?
+
+...
+
+### O que podemos construir?
+
+...
+
+### Por que precisamos dela?
+
+...
+
+### O que ela faz que HTML e CSS não fazem?
+
+...
+
+### É essencial?
+
+...
+
+### Quais são suas limitações?
+
+...
+
+### Exemplos reais
+
+...
+
+### Agora vamos aprender
+
+...
+
+Esse padrão deve ser adaptado para cada linguagem e tecnologia.
+
+---
+
+# 25. EDITOR DE CÓDIGO
+
+Criar futuramente um editor de código integrado.
+
+O usuário poderá escrever e executar código quando a tecnologia permitir.
+
+Exemplo:
+
+```js
+console.log("Olá, mundo!");
+```
+
+A execução deve ser segura.
+
+Código arbitrário não deve ser executado diretamente no servidor de produção sem isolamento adequado.
+
+---
+
+# 26. PAINEL ADMINISTRATIVO
+
+Criar estrutura para administradores criarem:
+
+* Cursos
+* Módulos
+* Lições
+* Conceitos
+* Exemplos
+* Exercícios
+* Respostas
+* Dicas
+* Desafios
+* XP
+* Dificuldade
+
+O conteúdo deve ser gerenciável sem precisar editar manualmente dezenas de arquivos do código-fonte.
+
+---
+
+# 27. DESIGN
+
+Interface moderna, limpa e gamificada.
+
+Pode utilizar como referência conceitual plataformas de aprendizado, mas não copie identidade visual protegida.
+
+Utilizar:
+
+* Dashboard
+* Mapa de aprendizado
+* Cards
+* Barras de progresso
+* XP
+* Níveis
+* Conquistas
+* Feedback visual
+* Animações discretas
+* Modo claro/escuro
+* Responsividade
+* Acessibilidade
+
+---
+
+# 28. ARQUITETURA
+
+Separar adequadamente:
+
+Frontend
+Backend
+Banco de dados
+Autenticação
+Conteúdo
+Progresso
+Exercícios
+XP
+Níveis
+Conquistas
+Administração
+
+Não colocar toda a aplicação em um único arquivo.
+
+A arquitetura deve permitir crescimento.
+
+---
+
+# 29. SEGURANÇA
+
+Implementar boas práticas:
+
+* Senhas protegidas
+* Sessões seguras
+* Validação de entrada
+* Proteção de rotas
+* Autorização
+* Proteção contra SQL injection
+* Proteção contra XSS
+* CSRF quando aplicável
+* Rate limiting quando necessário
+* Secrets em variáveis de ambiente
+* Nunca expor credenciais no frontend
+
+---
+
+# 30. ORDEM DE DESENVOLVIMENTO
+
+Não construa tudo de uma vez.
+
+### ETAPA 1 — Fundação
+
+Criar:
+
+* Aplicação
+* Frontend
+* Backend
+* Banco
+* Cadastro
+* Login
+* Logout
+* Sessão
+* Perfil
+
+### ETAPA 2 — Progressão
+
+Criar:
+
+* XP
+* Níveis
+* Progresso
+* Sequência
+
+### ETAPA 3 — Conteúdo
+
+Criar:
+
+* Cursos
+* Módulos
+* Lições
+* Conceitos
+* Exemplos
+* Exercícios
+
+### ETAPA 4 — Dificuldade
+
+Criar:
+
+* Fácil
+* Médio
+* Difícil
+
+Com mudança de linguagem, exemplos, profundidade e complexidade dos exercícios.
+
+### ETAPA 5 — Gamificação
+
+Criar:
+
+* Conquistas
+* Estatísticas
+* Revisões
+* Desafios
+
+### ETAPA 6 — Código
+
+Criar:
+
+* Editor
+* Execução segura
+* Desafios de programação
+
+### ETAPA 7 — Administração
+
+Criar:
+
+* Painel administrativo
+* Sistema de criação e edição de conteúdo
+
+### ETAPA 8 — Refinamento
+
+Melhorar:
+
+* UX
+* Performance
+* Segurança
+* Responsividade
+* Acessibilidade
+
+---
+
+# REGRA MAIS IMPORTANTE
+
+Não construa simplesmente um "site de curso".
+
+Construa uma plataforma de aprendizagem.
+
+O usuário deve sentir que está evoluindo como programador.
+
+A plataforma deve ensinar primeiro o CONTEXTO e o PORQUÊ, depois o CONCEITO, depois mostrar EXEMPLOS e só então exigir que o usuário PRODUZA algo.
+
+A dificuldade deve fazer o usuário evoluir intelectualmente, não apenas avançar números.
+
+No fácil, quero que o usuário pense:
+
+"Entendi."
+
+No médio:
+
+"Entendi, agora preciso pensar um pouco."
+
+No difícil:
+
+"Eu sei o que preciso usar, mas preciso descobrir como resolver isso."
+
+O objetivo final é que, depois de passar por toda a plataforma, o usuário não apenas saiba escrever código, mas consiga olhar para um problema novo e pensar:
+
+"Eu não sei resolver isso ainda, mas sei como descobrir."
+
+COMECE PRIMEIRO PELA ARQUITETURA E INFRAESTRUTURA DA APLICAÇÃO. NÃO COMECE CRIANDO CENTENAS DE EXERCÍCIOS.

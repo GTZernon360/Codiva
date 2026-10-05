@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 40" role="img" aria-label="Codiva">
+  <rect x="1" y="3" width="34" height="34" rx="11" fill="#dc694b"/>
+  <path d="M21.2 13.1a8.2 8.2 0 1 0 0 13.8" fill="none" stroke="#fffaf4" stroke-linecap="round" stroke-width="3.2"/>
+  <circle cx="27.7" cy="27" r="2" fill="#fffaf4"/>
+  <text x="45" y="29" fill="#203432" font-family="DM Sans, sans-serif" font-size="23" font-weight="700" letter-spacing="-1.2">codiva</text>
+  <circle cx="112" cy="27" r="2.2" fill="#dc694b"/>
+</svg>
