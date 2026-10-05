@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "V2VFzAaKhWf5kWHNqX6jK"
+uri = "file://downloads/codiva-source.zip"
+type = "unspecified"
+title = "Baixar código-fonte completo da Codiva"
+description = "ZIP validado com frontend React/JSX e CSS, API Express, migrações PostgreSQL, dependências e README. Não inclui credenciais, node_modules nem arquivos de build."
+logical_id = "98bf30a9-aedc-473e-88ed-3c4dad462dbb"
+content_hash = "sha256:8a7c20d31db76a7fdb11cd08a0bf024b5fc3eda72c00ed37626df96a4f6ee18e"
+size = 77777
+mtime_ms = 1791238094174
+storage_uri = "gcs://replit-rams-assets-kirk/rams/assets/repl:6e91adb8-d644-4b33-ad14-246be42247d2/98bf30a9-aedc-473e-88ed-3c4dad462dbb/6797df85-04ea-4521-b031-2df92bcb6847"
+storage_version_token = "1791238101480145"
+content_type = "application/octet-stream"
